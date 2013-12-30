@@ -42,7 +42,7 @@ while (q.length > 0) {
 		//left
 		if (x-tS > 0) {
 			occupied = (grid[y][x-tS].length > 0) || (flags[y/tS][(x-tS)/tS] > 0);
-			while (!occupied && (x-tS > 0){
+			while (!occupied && (x-tS > 0)) {
 				x -= tS;
 				occupied = (grid[y][x-tS].length > 0) || (flags[y/tS][(x-tS)/tS] > 0);
 			}
